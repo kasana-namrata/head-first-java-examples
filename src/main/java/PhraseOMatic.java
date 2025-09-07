@@ -3,8 +3,8 @@ import java.util.concurrent.ThreadLocalRandom;
 public class PhraseOMatic {
     public static void main(String[] args) {
         String[] list1 = {"where", "are", "younow"};
-        String[] list2 = {"akhilesh", "namrata", "arun"};
-        String[] list3 = {"bye", "gotcha", "level"};
+        String[] list2 = {"yay", "namita", "arun"};
+        String[] list3 = {"bye", "akhil", "level"};
 
         for (int i = 0; i < 5; i += 1) {
             int list1LengthRandom = ThreadLocalRandom.current().nextInt(list1.length);
